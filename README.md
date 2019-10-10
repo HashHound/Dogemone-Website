@@ -4,7 +4,7 @@
 
 A repository for Ombre website.
 
-![Ombre cryptonote currency website](screenshot1.png)
+[![Ombre cryptonote currency website](screenshot1.png)](screenshot2.png)
 
 You can watch demo of this template at [here](https://basemax.github.io/OmbreWebV1/).
 
