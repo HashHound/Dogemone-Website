@@ -4,6 +4,8 @@
 
 A repository for Ombre website.
 
+![Ombre cryptonote currency website](screenshot1.png)
+
 You can watch demo of this template at [here](https://basemax.github.io/OmbreWebV1/).
 
 ## What is Ombre?
