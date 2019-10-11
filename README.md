@@ -35,3 +35,15 @@ All of the tools, libs and theme is free and available for all.
 
 - **Maintainer:** [Max Base](https://github.com/BaseMax)
 - **Supervisor:** [Prof. Ahmad Yoosofan](https://github.com/Yoosofan)
+
+---------
+
+# Max Base
+
+My nickname is Max, Programming language developer, Full-stack programmer. I love computer scientists, researchers, and compilers.
+
+## Asrez Team
+
+A team includes some programmer, developer, designer, researcher(s) especially Max Base.
+
+[Asrez Team](https://www.asrez.com/)
