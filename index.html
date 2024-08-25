@@ -58,8 +58,8 @@
             <p>We are an open-source project. Anyone can contribute.</p>
           </div>
           <div class="feature">
-            <h3>No Block Explorer</h3>
-            <p>To follow the original design of the CryptoNote protocol, Dogemone does not have a block explorer.</p>
+            <h3>No Mining Pools</h3>
+            <p>To follow the original design of the CryptoNote protocol, Dogemone does not have a mining pool.</p>
           </div>
         </div>
       </div>
@@ -70,12 +70,10 @@
         <h2>How to Mine Dogemone</h2>
         <p>Follow these steps to start mining Dogemone:</p>
         <ol>
-          <li><strong>Download the Wallet:</strong> Get the latest version of the Dogemone wallet from our <a href="https://github.com/hashhound/dogemone/releases">releases page</a>.</li>
+          <li><strong>Download the Wallet and Node:</strong> Get the latest version of the Dogemone Release from our <a href="https://github.com/hashhound/dogemone/releases">releases page</a>.</li>
           <li><strong>Generate an Address:</strong> Use the simplewallet to generate a new wallet address.</li>
-          <li><strong>Run a Node:</strong> Start the Dogemone daemon to connect to the network. Use the seed nodes listed in the configuration file to join the network.</li>
-          <li><strong>Start Mining:</strong> Download the miner from our <a href="https://github.com/hashhound/dogemone/releases">releases page</a>. Use the following command to start mining:
-            <pre><code>./miner --daemon-address <YOUR_DAEMON_ADDRESS> --wallet-address <YOUR_WALLET_ADDRESS></code></pre>
-          </li>
+          <li><strong>Run a Node:</strong> Start the Dogemone daemon with ./dogemoned --rpc-bind-ip 0.0.0.0 --rpc-bind-port 53000</li>
+          <li><strong>Start Mining:</strong> Once the wallet gets connected to the node, type start_mining on the wallet. Mining will be started and you will recieve DME in this Wallet.</li>
         </ol>
       </div>
     </section>
@@ -84,7 +82,7 @@
       <div class="container">
         <h2>Roadmap</h2>
         <ul class="roadmap">
-          <li><strong>July 2024:</strong> Launch of the mainnet.</li>
+          <li><strong>August 2024:</strong> Launch of the mainnet.</li>
           <li><strong>Q3 and Q4 2024:</strong> Listing on exchanges.</li>
           <li><strong>2025:</strong> Increasing the transaction fees to reward miners more and making decisions about algorithm changes.</li>
         </ul>
@@ -98,16 +96,17 @@
           <li><strong>Algorithm:</strong> Cryptonight</li>
           <li><strong>Coin name:</strong> Dogemone</li>
           <li><strong>Coin abbreviation:</strong> DME</li>
-          <li><strong>Block reward:</strong> ~286 coins</li>
+          <li><strong>Block reward:</strong> ~57 coins</li>
+          <li><strong>Tail reward:</strong> 0.3 coins</li>
           <li><strong>Coin supply:</strong> 300,000,000 coins</li>
-          <li><strong>Block Time:</strong> 120 seconds</li>
-          <li><strong>Halving:</strong> Curve emission, the block rewards decrease after every block</li>
+          <li><strong>Block Time:</strong> 60 seconds</li>
+          <li><strong>Halving:</strong> No Halving</li>
           <li><strong>Difficulty Adjustment:</strong> 15 mins</li>
           <li><strong>Dev Fee:</strong> Every 10th block which is roughly 10%</li>
           <li><strong>RPC port:</strong> 53000</li>
           <li><strong>P2P port:</strong> 49200</li>
         </ul>
-        <p><strong>Explorers:</strong> No explorer for increasing privacy and Anonymity.</p>
+        <p><strong>Explorer:</strong> <li><a href="https://explorer.dogemone.online/">Dogemone Explorer</a></li></p>
         <p><strong>Exchanges:</strong> not listed yet</p>
         <p><strong>Socials:</strong></p>
         <ul class="socials-list">
