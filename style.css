@@ -19,8 +19,8 @@ body {
 }
 
 header {
-  background-color: rgba(51, 51, 51, 0.9);
-  color: #fff;
+  background-color: #ffde59;
+  color: #333;
   padding: 20px 0;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -40,7 +40,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: #333;
   text-decoration: none;
   padding: 10px 20px;
   transition: background-color 0.3s;
@@ -81,7 +81,7 @@ main {
 }
 
 .feature {
-  background-color: #fff;
+  background-color: #333;
   padding: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -119,15 +119,16 @@ main {
 .btn {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #333;
-  color: #fff;
+  background-color: #ff5e57;
+  color: #333;
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s;
 }
 
 .btn:hover {
-  background-color: #575757;
+  background-color: #ffde59;
+  transform: scale(1.1);
 }
 
 .roadmap {
@@ -144,8 +145,8 @@ main {
 }
 
 footer {
-  background-color: rgba(51, 51, 51, 0.9);
-  color: #fff;
+  background-color: #ffde59;
+  color: #333;
   padding: 20px 0;
   text-align: center;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
